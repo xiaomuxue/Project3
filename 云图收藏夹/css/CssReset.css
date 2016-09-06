@@ -1,0 +1,40 @@
+@charset "utf-8";
+html{
+	 	background: FloralWhite;
+	/*background:#40A0DA; Ivory 	PowderBlue	Lavender Azure Honeydew*/
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,form,fieldset,input,textarea,p,blockquote,th,td{
+	margin:0 auto;
+	padding:0;
+}
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+a{
+	text-decoration:none;
+}
+a:link{color: #fff;} /* 未访问的链接 */
+a:visited {color: #fff;} /* 已访问的链接 */
+a:hover{color: #fff;} /* 鼠标在链接上 */ 
+a:active {color: #fff;} /* 点击激活链接——在你点击该链接之后，页面正在转向新地址的时候，链接显示此颜色；当你已经到了要链接的页面，然后再返回，原页面上的此链接仍是此颜色 */ 
+em,strong,b,u,i{
+	font-style:normal;
+	font-weight:normal;
+}
+ul,ol{
+	list-style:none;
+}
+h1,h2,h3{
+	font-size:100%;
+	font-weight:normal;
+}
+input,textarea,select{
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+	*font-size:100%;/*ie*/
+}
+input,textarea{
+	border:none;
+}

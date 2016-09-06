@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Could</title>
+	<link rel="shortcut icon" type="shortcut icon" href="images/logo.png">
+	<link rel="stylesheet" type="text/css" href="css/could.css">
+	<link rel="stylesheet" type="text/css" href="css/CssReset.css">
+	<script type="text/javascript" src="js/yclib.js"></script>
+	<script type="text/javascript" src="js/could.js"></script>
+</head>
+<body onselectstart="return false" id="mybody">
+<div class="renxing">
+	<!-- S=页面的头部 -->
+	<div class="header">
+    	<div class="logo"></div>
+        <h1>云端收藏夹</h1>
+        <span>——最好用的网络收藏夹</span>
+    </div>
+    <!-- E=页面的头部 -->
+    <!-- S=弹出层 -->
+    <div id="bg"></div>
+    <div id="show">
+    	 <form id="myform" name="myform">
+                名字:<input type="text" name="flabel" id="flabel" /><br/>
+                网址:<input type="text" name="furl" id="furl" /><br/>
+                分类:<input type="text" name="ftags" id="ftags" /><br/>
+                描述:<input type="text" name="fdesc" id="fdesc" /><br/>
+                <input id="btncomfirm" type="button" value="确定" />
+                <input id="btnclose" type="button" value="取消" />
+            </form>     
+    </div>
+    <!-- E=弹出层 -->
+    <!-- S=页面的内容 -->
+    <div class="content">
+    	<div class="myfavorite">
+        	<div class="mynav fl"><i class="icon"></i>我的收藏夹<span>(<span id="count"></span>)</span></div>
+            <div class="setbar fr">
+            	<div class="set-btn" id="set-add" title="添加">添加 </div>
+            	<div class="set-btn" id="set-edit" title="编辑">编辑 </div>
+            	
+            	<div class="set-btn edit-class" id="classed" style="display: inline-block;">
+            		<i id="classicon"></i>
+            		<span>显示全部</span>
+            	</div>
+                <div class="set-btn" id="yuntu">
+                	云图
+                </div>
+            </div>
+        </div>
+        <div class="">
+        	
+        </div>
+        <div id="dialog">
+            <form id="myform1" name="myform1">
+                新名字:<input type="text" name="flabel" id="flabel" /><br/>
+                新网址:<input type="text" name="furl" id="furl" /><br/>
+                分类:<input type="text" name="ftags" id="ftags" /><br/>
+                描述:<input type="text" name="fdesc" id="fdesc" /><br/>
+                <input id="btncomfirm1" type="button" value="确定" />
+                <input id="btnclose1" type="button" value="取消" />
+            </form>     
+        </div>
+        <div id="mask"></div>
+    	<div id="cont">
+    		<div id="web">
+                <ul id="ul3">
+                </ul>  
+            </div>
+            <div id="gradient"></div>
+    		<div id="tags">
+                <ul id="ul1">
+                </ul>
+            </div>
+            <i id="arrow_l"></i>
+            <i id="arrow_r"></i>
+        </div>
+    </div>
+    <!-- E=页面的内容 -->
+ </div>
+ 	 <!-- S=云图页面 -->
+    <div id="yuntu_web">
+    </div>
+    <!-- E=云图页面 -->
+    <!-- S=页面的尾部 -->
+    <div class="footer">
+    	<p>&copy;2016 Silence&Zou. All Rights Reserved</p> 
+    </div>
+    <!-- E=页面的尾部 -->
+
+</body>
+</html>
